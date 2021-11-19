@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/icon_g.png';
 
-const Header = () => {
+const HeaderPrincipal = () => {
     return (
         <header>
             <div class="logo" >
@@ -12,7 +12,7 @@ const Header = () => {
             <nav>
                 <ul>
                     <li><Link class="routerLink" to='/'>Inicio</Link></li>
-                    <li><Link class="routerLink" to='/proyectos'>Proyectos</Link></li>
+                    <li><Link class="routerLink" to='/nuestrosproyectos'>Proyectos</Link></li>
                     <li><Link class="routerLink" to='/nosotros'>Acerca de Nosotros</Link></li>
                     <li><Link class="routerLink" to='/contacto'>Contáctenos</Link></li>
                     <li><Link class="routerLink" to='/login'>Iniciar sesión</Link></li>
@@ -22,4 +22,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default HeaderPrincipal;

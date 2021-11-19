@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Teenager003 from '../assets/003-teenager.png';
 import Teenager004 from '../assets/004-teenager.png';
-import Header from '../components/Header';
+import Header from '../components/HeaderPrincipal';
 
 const Nosotros = () => {
     return (

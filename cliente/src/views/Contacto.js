@@ -1,12 +1,12 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Logo from '../assets/1632184721717.png';
-import Header from '../components/Header';
+import HeaderPrincipal from '../components/HeaderPrincipal';
 
 const Contacto = () => {
     return (
         <div>
-            <Header />
+            <HeaderPrincipal />
             <section class="proy" id="proy">
                 <div class="overlay">
                     <h2 class="proy_header">GAM<span class="lixon">MAN</span></h2>

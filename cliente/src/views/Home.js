@@ -1,12 +1,13 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import ImgBack from '../assets/1632184721717.png';
-import Header from '../components/Header';
+import Header from '../components/HeaderPrincipal';
+import HeaderPrincipal from '../components/HeaderPrincipal';
 
 const Home = () => {
     return (
         <div>
-            <Header />
+            <HeaderPrincipal />
             <section class="proy" id="proy">
                 <div class="overlay">
                     <h2 class="proy_header">GAM<span class="lixon">MAN</span></h2>

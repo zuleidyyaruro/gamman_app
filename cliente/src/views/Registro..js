@@ -2,18 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/1632184721717.png';
 
-const Login = () => {
+const Registro = () => {
     return (
         <div>
             <div class='header2'>
-                <Link to="/"  color="#ffffff">
+                <Link to="/" color="#ffffff">
                     <i class="fa fa-home fa2"></i></Link>
             </div>
-            <br />
-            <br />
 
-            <h2>Iniciar Sesion</h2>
-            
+            <br />
+            <br />
+            <h2>Registro de Cuenta Nueva</h2>
             <br />
 
             <div class="container-grid">
@@ -32,14 +31,13 @@ const Login = () => {
                                 <label for="passsword"><b>Contraseña</b></label>
                                 <input type="password" placeholder="Contraseña" name="password" v-model="password" required />
 
-                                <span class="recovery"><router-link to="/Recuperarcontrasena" class="rgt" f>¿Olvidó su contraseña?</router-link></span>
+                                <label for="passsword"><b>Repetir Contraseña</b></label>
+                                <input type="password" placeholder="Contraseña" name="password" v-model="password" required />
 
-                                <input type="checkbox" checked="checked" name="remember" />
-                                <label><b class="rememberme">Recordar contraseña</b></label>
-
-                                <button >Iniciar sesión</button>
+                                <button >Crear Cuenta</button>
                             </div>
-                            <span class="rgt">¿No tiene una cuenta?<Link to="/registro"> Registrese</Link></span>
+                            <Link className="rgt" to="/registro"> Iniciar Sesión</Link>
+
                         </div>
                     </div>
                 </div>
@@ -55,4 +53,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Registro

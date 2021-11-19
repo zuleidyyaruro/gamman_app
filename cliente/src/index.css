@@ -3,6 +3,7 @@
 /* Body */
 @media (max-width: 1558px){
 }
+
 body {
 	font-family: 'Montserrat';
 	font-size: 20px;
@@ -464,7 +465,7 @@ span.rgt {
   }
   
   .container-grid{
-	  width: 100%;
+	  width: 90%;
 	  margin:auto;
   }
   
@@ -547,3 +548,39 @@ span.rgt {
 	  font-size: 12px;
   }
 
+.titulo-proyectos {
+	margin: 0;
+	background-color: #AD6EE5;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+.container-proyectos {
+	margin: auto;
+
+}
+
+
+.lista-proyectos {
+	padding: 0 20px;
+}
+
+.card-proyectos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-proyectos button {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.boton-editar {
+	background-color: #ffc107;
+	margin-right: 5px;
+}
+
+.boton-elimminar {
+	background-color: #dc3545;
+}

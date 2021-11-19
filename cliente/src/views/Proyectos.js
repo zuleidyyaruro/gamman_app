@@ -1,25 +1,40 @@
-import React from 'react'
-import Header from '../components/Header'
+import React from 'react';
 
 const Proyectos = () => {
     return (
-        <div>
-            <Header />
-            <section class="proy" id="proy">
-                <div class="overlay">
-                    <h2 class="proy_header">GAM<span class="lixon">MAN</span></h2>
-                    <h3 class="proy_header2">Gestor de proyectos</h3>
+        <>
+            <h2 className="titulo-proyectos">Gamman</h2>
+            <div className="container-grid container-proyectos">
+                <div className="row">
+                    <div className="col-lg-4">
+                        <h2>Agregar Proyectos</h2>
+                        <form action="">
+                            <input type="text" placeholder="Nombre del proyecto" />
+                            <input type="text" placeholder="Nombre del Encargado" />
+                            <button>Guardar</button>
+                        </form>
+                    </div>
+                    <div className="col-lg-8 lista-proyectos">
+                        <h2>Lista de Proyectos</h2>
+                        <ol className="card-proyectos">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
+                            <button className="boton-editar">Editar</button>
+                            <button className="boton-elimminar">Eliminar</button>
+                        </ol>
+                        <ol className="card-proyectos">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
+                            <button className="boton-editar">Editar</button>
+                            <button className="boton-elimminar">Eliminar</button>
+                        </ol>
+                        <ol className="card-proyectos">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
+                            <button className="boton-editar">Editar</button>
+                            <button className="boton-elimminar">Eliminar</button>
+                        </ol>
+                    </div>
                 </div>
-            </section>
-
-            <section className='proyectos'>
-                <h2>Proyectos destacados</h2>
-
-                
-            </section>
-
-
-        </div >
+            </div>
+        </>
     )
 }
 
